@@ -39,11 +39,44 @@ echo "enter names"
 read -a names
 echo "You enter first name: ${names[0]} and second: ${names[1]}"
 
-COMMENT
-
 #in case you did not write variable in the read you can see your input in $REPLY variable
 echo "enter someting"
 read
 echo "You write something like: $REPLY"
 
-#Pass arguments to a Bash-Script
+#1st way Passing arguments to a Bash-Script
+echo $0 $1 $2 $3 $4 
+echo "It will print the following text you inputed in the terminal"
+
+#2nd way Passing arguments to a Bash-Script pero naa kalahian kay ang kina una nimo nga arg kay mahimo na index0
+arg=("$@") #convert the arg into array
+echo ${arg[1]} " and " ${arg[2]} " and " ${arg[3]}
+
+#print number of arguments
+echo $#
+
+var1=10
+
+#if stament
+if [ $var1 -eq 9 ]
+then 
+    echo $var1 "is equal to 9"
+fi
+
+#2nd way to use if statement 
+if (( $var1 >= 9 ))
+then 
+    echo $var1 "is greater than to or equal to 9"
+fi
+
+COMMENT
+
+word1=abc
+
+#For string comparison
+if [ $word1 == "abc" ]
+then 
+    echo $word1 "is same"
+fi
+
+ika 5 ep nata sa shell script
