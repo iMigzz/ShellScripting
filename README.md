@@ -3,6 +3,9 @@ Notes:
 cd    - Switch directory
 touch - create a file in a folder
 mkdir - create a folder
+ls    - List of file in PWD
+PWD   - present working direstory
+mrdir - delete the diresctory
 
 <img width="1114" height="555" alt="image" src="https://github.com/user-attachments/assets/1e0fe665-367e-44f6-9c41-43254ce05b9e" />
 <img width="1107" height="433" alt="image" src="https://github.com/user-attachments/assets/1c44ee77-5a9f-47a8-af30-3af055bcf0f7" />
