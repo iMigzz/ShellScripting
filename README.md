@@ -3,7 +3,7 @@ Notes:
 cd    - Switch directory
 touch - create a file in a folder
 mkdir - create a folder
-ls    - List of file in PWD
+ls -l - List of file in PWD and property
 PWD   - present working direstory
 mrdir - delete the diresctory
 
